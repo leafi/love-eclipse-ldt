@@ -31,6 +31,7 @@ Current TODOs:
 
 * utf8 Lua module missing - tell me where to find a definition file and I'll stuff it in.
 * No object functions/enum definitions. So yes autocomplete for love.window.getWidth(), no autocomplete for love.image.newImageData():getWidth().
+* All functions only have their first definition output. Function overloading is ignored!
 
 The latter is my next task.
 

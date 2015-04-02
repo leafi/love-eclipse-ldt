@@ -6,9 +6,9 @@ This repository is the contents of a .zip file you could feed into Eclipse LDT.
 
 # Pre-built
 
-(I'll get the link sorted in a minute...)
+Lucky for you, installation is a breeze thanks to the latest in archiving technology!
 
-1. Grab that .zip above
+1. Grab the latest .zip package from https://github.com/leafi/love-eclipse-ldt/releases .
 2. Start a new Lua project in the https://eclipse.org/ldt/ Eclipse LDT
 3. Under 'Targeted Execution Environment' in the new project options, click Configure Execution Environments...
 4. Click Add...

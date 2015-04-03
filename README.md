@@ -4,6 +4,8 @@ LOVE2D Eclipse LDT Execution Environment. That means you get autocomplete and al
 
 This repository is the contents of a .zip file you could feed into Eclipse LDT.
 
+![Eclipse LDT LOVE2D Screenshot](http://i.imgur.com/x8shhcc.png)
+
 # Pre-built
 
 Lucky for you, installation is a breeze thanks to the latest in archiving technology!
@@ -30,6 +32,7 @@ The api.zip is built using https://github.com/leafi/love-api-to-ldt-luadoc, a to
 Current TODOs:
 
 * utf8 Lua module missing - tell me where to find a definition file and I'll stuff it in.
+* No enum definitions.
 * All functions only have their first definition output. Function overloading is ignored! I can't find a good way to implement this. I think we just need to conjure up a good heuristic to pick the 'best' option.
 
 # Credits

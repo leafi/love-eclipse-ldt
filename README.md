@@ -16,6 +16,7 @@ Lucky for you, installation is a breeze thanks to the latest in archiving techno
 4. Click Add...
 5. Browse to the .zip file you downloaded
 6. Just use that, basically. It should work. Open an Issue if it doesn't!
+7. ...And if this isn't a brand new project from the default template, then you **also** need to go in the build path options (right-click project on left, click Properties, then go to Lua > Build Path) and on the Libraries tab, click Add Library... and add the execution environment zip. Sorry, just discovered that myself.
 
 # Building it yourself
 

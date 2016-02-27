@@ -12,16 +12,16 @@ function love.load()
 end
 
 function love.draw()
-    -- Draw a coloured rectangle.
-    love.graphics.setColor(0, 100, 100);
-    love.graphics.rectangle('fill', x, y, w, h);
+  -- Draw a coloured rectangle.
+  love.graphics.setColor(0, 100, 100);
+  love.graphics.rectangle('fill', x, y, w, h);
 
 end
 
 function love.update(dt)
-    -- Grow the rectangle.
-    w = w + 1
-    h = h + 1
+  -- Grow the rectangle.
+  w = w + 1
+  h = h + 1
 
 end
 

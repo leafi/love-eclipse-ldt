@@ -38,6 +38,8 @@ Current TODOs:
 
 # Credits
 
+@sirskunkalot for updating from 0.9.2 to 0.10.1.
+
 Original Koneki (pre-LDT) API files: https://github.com/mkosler/LOVELuaDoc
 
 And https://github.com/love2d-community/love-api is the definition set we produce api.zip from nowadays.

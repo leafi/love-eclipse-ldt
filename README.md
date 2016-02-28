@@ -20,7 +20,7 @@ Lucky for you, installation is a breeze thanks to the latest in archiving techno
 
 # Building it yourself
 
-The api.zip is built using https://github.com/leafi/love-api-to-ldt-luadoc, a tool which *itself* takes the LOVE2D API definitions from https://github.com/rm-code/love-api. Phew!
+The api.zip is built using https://github.com/leafi/love-api-to-ldt-luadoc, a tool which *itself* takes the LOVE2D API definitions from https://github.com/love2d-community/love-api. Phew!
 
 1. Go to https://github.com/leafi/love-api-to-ldt-luadoc and follow the instructions in the README - carefully.
 2. With those instructions thoroughly followed, you now find yourself with an api.zip file.
@@ -40,4 +40,4 @@ Current TODOs:
 
 Original Koneki (pre-LDT) API files: https://github.com/mkosler/LOVELuaDoc
 
-And https://github.com/rm-code/love-api/ is the definition set we produce api.zip from nowadays.
+And https://github.com/love2d-community/love-api is the definition set we produce api.zip from nowadays.

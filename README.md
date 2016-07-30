@@ -34,7 +34,7 @@ Current TODOs:
 
 * utf8 Lua module missing - tell me where to find a definition file and I'll stuff it in.
 * No enum definitions.
-* All functions only have their first definition output. Function overloading is ignored! I can't find a good way to implement this. I think we just need to conjure up a good heuristic to pick the 'best' option.
+* All functions only have their last definition output. Function overloading is ignored! I can't find a good way to implement this. I think we just need to conjure up a good heuristic to pick the 'best' option.
 
 # Credits
 

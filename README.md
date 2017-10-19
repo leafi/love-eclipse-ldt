@@ -8,7 +8,7 @@ This repository is the contents of a .zip file you could feed into Eclipse LDT.
 
 # Pre-requisites
 
-Obviously, you will need to have the [eclipse LuaDevelopmentTools](https://eclipse.org/ldt) installed. Also a working LOVE2D interpreter, if you want to run your code directly from within eclipse. You *can* use it with the default Lua5.1 interpreter or any other, but don't blame me or open an issue if your (well, at least autocompleted) code won't run. So, please check out the [Getting Started pages at the LOVE2D-Wiki](https://love2d.org/wiki/Getting_Started) and the [LDT Wiki on interpreters](https://wiki.eclipse.org/LDT/User_Area/User_Guide#Managing_Interpreters) first.
+Obviously you will need to have the [eclipse LuaDevelopmentTools](https://eclipse.org/ldt) installed. Also fundamental: A working LOVE2D interpreter. You *can* use the Execution Environment with eclipse using the default Lua5.1 interpreter or any other, but don't blame me or open an issue if your (well, at least autocompleted) code won't run (Spoiler: It won't). So, please check out the [Getting Started pages at the LOVE2D-Wiki](https://love2d.org/wiki/Getting_Started) and the [LDT Wiki on interpreters](https://wiki.eclipse.org/LDT/User_Area/User_Guide#Managing_Interpreters) first.
 
 # Pre-built
 

@@ -6,12 +6,16 @@ This repository is the contents of a .zip file you could feed into Eclipse LDT.
 
 ![Eclipse LDT LOVE2D Screenshot](http://i.imgur.com/x8shhcc.png)
 
+# Pre-requisites
+
+Obviously, you will need to have the [eclipse LuaDevelopmentTools](https://eclipse.org/ldt) installed. Also a working LOVE2D interpreter, if you want to run your code directly from within eclipse. You *can* use it with the default Lua5.1 interpreter or any other, but don't blame me or open an issue if your (well, at least autocompleted) code won't run. So, please check out the [Getting Started pages at the LOVE2D-Wiki](https://love2d.org/wiki/Getting_Started) and the [LDT Wiki on interpreters](https://wiki.eclipse.org/LDT/User_Area/User_Guide#Managing_Interpreters) first.
+
 # Pre-built
 
-Lucky for you, installation is a breeze thanks to the latest in archiving technology!
+Lucky for you, installation of the Execution Environment is a breeze thanks to the latest in archiving technology!
 
 1. Grab the latest .zip package from https://github.com/leafi/love-eclipse-ldt/releases .
-2. Start a new Lua project in the https://eclipse.org/ldt/ Eclipse LDT
+2. Start a new Lua project in LDT
 3. Under 'Targeted Execution Environment' in the new project options, click Configure Execution Environments...
 4. Click Add...
 5. Browse to the .zip file you downloaded
@@ -38,7 +42,7 @@ Current TODOs:
 
 # Credits
 
-@sirskunkalot for updating from 0.9.2 to 0.10.1.
+@sirskunkalot for updating from 0.9.2 to 0.10.1. And continuing.
 
 Original Koneki (pre-LDT) API files: https://github.com/mkosler/LOVELuaDoc
 

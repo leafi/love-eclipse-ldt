@@ -1,9 +1,9 @@
 package = "LOVE2D"
-version = "0.10.2"
+version = "0.11.1"
 flags = { ee = true }
 description = {
-  summary = "LOVE2D 0.10.2 Execution Environment",
-  detailed = [[ LOVE2D 0.10.2 Execution Environment Support ]],
+  summary = "LOVE2D 0.11.1 Execution Environment",
+  detailed = [[ LOVE2D 0.11.1 Execution Environment Support ]],
   licence = "zlib/libpng",
   homepage = "http://www.love2d.org",
 }

@@ -4,50 +4,19 @@
 -- Feel free to delete the callbacks you don't need,
 -- and visit https://www.love2d.org/wiki/love if you need more.
 
--- for rectangle example
-local x, y, w, h = 20, 20, 60, 20
-
+-- Load some default values for our rectangle.
 function love.load()
-
+    x, y, w, h = 20, 20, 60, 20
 end
-
-function love.draw()
-  -- Draw a coloured rectangle.
-  love.graphics.setColor(0, 100, 100);
-  love.graphics.rectangle('fill', x, y, w, h);
-
-end
-
+ 
+-- Increase the size of the rectangle every frame.
 function love.update(dt)
-  -- Grow the rectangle.
-  w = w + 1
-  h = h + 1
-
+    w = w + 1
+    h = h + 1
 end
-
-
-function love.keypressed(key, isrepeat)
-
+ 
+-- Draw a coloured rectangle.
+function love.draw()
+    love.graphics.setColor(0, 0.4, 0.4)
+    love.graphics.rectangle("fill", x, y, w, h)
 end
-
-function love.keyreleased(key)
-
-end
-
-function love.textinput(text)
-
-end
-
-function love.mousepressed(x, y, button)
-
-end
-
-function love.mousemoved(x, y, dx, dy)
-
-end
-
-function love.mousereleased(x, y, button)
-
-end
-
-
